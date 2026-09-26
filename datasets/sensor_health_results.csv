@@ -1,0 +1,6 @@
+station_id,total_readings,anomalies,statistical_anomalies,rate_change_anomalies,frozen_anomalies,drift_anomalies,isolation_anomalies,anomaly_rate,anomaly_penalty,drift_penalty,frozen_penalty,rate_change_penalty,statistical_penalty,health_score,health_status,estimated_days_to_maintenance,maintenance_priority,recommended_action
+AWS_003,3000,115,11,72,0,456,186,3.833333333333333,7.666666666666666,22.799999999999997,0.0,3.5999999999999996,0.36666666666666664,65.57,Plan Maintenance,3,HIGH,Calibrate sensor and inspect drift
+AWS_004,3000,98,9,74,0,468,154,3.266666666666666,6.533333333333332,23.4,0.0,3.7,0.3,66.07,Plan Maintenance,3,HIGH,Calibrate sensor and inspect drift
+AWS_001,3000,91,9,64,19,365,188,3.033333333333333,6.066666666666666,18.25,1.2666666666666666,3.2,0.3,70.92,Plan Maintenance,5,HIGH,Inspect sensor for frozen readings
+AWS_002,3000,54,7,46,19,358,89,1.7999999999999998,3.5999999999999996,17.9,1.2666666666666666,2.3,0.23333333333333336,74.7,Plan Maintenance,9,HIGH,Inspect sensor for frozen readings
+AWS_005,3000,93,10,76,0,243,177,3.1,6.2,12.149999999999999,0.0,3.8,0.33333333333333337,77.52,Watch,6,MEDIUM,Calibrate sensor and inspect drift
