@@ -12,7 +12,7 @@ import {
 
 import SensorChart from "../components/SensorChart";
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://skyguard-ai-api.vercel.app";
 
 function Sensors() {
   const [sensors, setSensors] = useState([]);
@@ -1002,4 +1002,5 @@ function Sensors() {
 }
 
 export default Sensors;
+
 

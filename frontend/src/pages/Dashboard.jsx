@@ -16,7 +16,7 @@ import StationCard from "../components/StationCard";
 import AlertCard from "../components/AlertCard";
 import MaintenanceCard from "../components/MaintenanceCard";
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://skyguard-ai-api.vercel.app";
 
 function Dashboard() {
   const [summary, setSummary] = useState(null);
@@ -1183,4 +1183,5 @@ function Dashboard() {
 }
 
 export default Dashboard;
+
 
