@@ -1,7 +1,9 @@
+
 import axios from "axios";
 
 const API_BASE_URL =
-  import.meta.env.VITE_API_URL || "";
+  import.meta.env.VITE_API_URL ||
+  "https://skyguard-ai-api.vercel.app";
 
 const api = axios.create({
   baseURL: API_BASE_URL,
@@ -60,3 +62,4 @@ export const getWeatherEvents = () =>
   api.get("/api/weather-events");
 
 export default api;
+
